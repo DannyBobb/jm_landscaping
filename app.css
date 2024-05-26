@@ -1,0 +1,99 @@
+body    {
+    background-color: #354135;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
+.navbar {
+    background-image: url(images/soil.jpg);
+    background-color: #cccccc;
+}
+
+.navbar.scrolled {
+    background-image: url(images/soil.jpg);
+    background-color: #cccccc;
+    transition: background 500ms;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color: #ffffff;
+    
+}
+
+
+#mainNavbar .nav-link {
+    color: #ffffff;
+}
+#mainNavbar .nav-link:hover {
+    color: #56961e;
+}
+
+#moc {
+    font-size: 2rem;
+    font-weight: 100;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+#modGroup h2 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
+#modGroup span {
+        font-size: 3rem;
+        font-weight: 100;
+        color: #ea1c2c;
+        font-family: "Nunito", sans-serif;        
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 100;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 1260px) {
+    #modGroup h2 {
+        font-size: 2rem;
+    }
+    #modGroup span {
+        font-size: 2rem;
+    }
+    .blurb h2 {
+        font-size: 1.8rem;
+    }
+}
+.blurb p {
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    font-weight: 100;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 1060px) {
+    #modGroup h2 {
+        font-size: 1.5rem;
+    }
+    #modGroup span {
+        font-size: 1.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.content {
+    margin-top: 1rem;
+}
+
