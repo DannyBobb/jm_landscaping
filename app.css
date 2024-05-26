@@ -58,6 +58,13 @@ body    {
         font-family: "Nunito", sans-serif;        
 }
 
+h2 {
+    font-size: 2.2rem;
+    font-weight: 80;
+    color: #ffffff;
+    font-family: "Nunito", sans-serif;
+}
+
 
 
 .blurb p {
