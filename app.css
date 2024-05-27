@@ -23,8 +23,12 @@ body    {
 #mainNavbar .navbar-brand {
     color: #ffffff;
     font-size: 1.5rem;
-    font-weight: 100;
-    
+    font-weight: 100;   
+}
+
+#phone-small {
+    max-width: 50%;
+    max-height: 50%;
 }
 
 
